@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  background-color: #f2f1e8;
+}
+
+.logo {
+  background-image: url(./images/bent-creek-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  padding: 15px;
+}
+
+.nav-row {
+  background: #fff;
+  box-shadow: 1px 1px 1px grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  font-family: 'roboto';
+  text-transform: uppercase;
+  font-size: 15px;
+  width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #2B2F26;
+}
+
+.nav-item a{
+  color: #2B2F26;
+}
+
+#activelink {
+  color: #968772;
+}
+
+.nav-item a:hover{
+  color: #CD5D67;
+}
+
+
+.main-heading {
+  font-family: "merriweather";
+  font-size: 55px;
+  font-weight: 400;
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.section_container {
+  font-family: "merriweather";
+  padding: 20px 200px;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.container-two {
+  font-family: "merriweather";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.facilities_one {
+  font-size: 15px;
+  line-height: 2;
+  font-weight: normal;
+  width: 50%;
+  margin-left: 200px;
+}
+
+aside {
+  width: 12%;
+  float: right;
+  margin-right: 200px;
+  padding-top:60px;
+}
+
+h3 {
+  font-size: 9px;
+  padding-bottom: 30px;
+  font-weight: lighter;
+  line-height: 1.5;
+
+}
+
+.birdhouse1 {
+  background-image: url('./images/birdhouse.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 60px;
+  float: left;
+  margin-right: 30px;
+  margin-top:20px;
+}
+
+.birdtext {
+  margin-top: 30px;
+}
+
+.birdtext a{
+  color: #968772;
+}
+
+.birdtext a:hover{
+  color:#967343;
+}
+
+.background-3 {
+  background-image: url('./images/background-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15px;
+  padding: 15%;
+  color: #f0eed5;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.background-1 {
+  background-image: url('./images/background-1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  padding-bottom: 70%
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+h4{
+margin-left: 200px;
+font-size: 25px;
+font-weight:lighter;
+padding-bottom: 15px;
+font-family: 'merriweather';
+}
+
+blockquote {
+  font-weight: 100;
+  font-style: italic;
+  border-left: 2px solid #a0937f;
+  margin: 20px;
+  padding-left: 30px;
+}
+
+table {
+  border: thin solid #968772;
+  border-collapse: collapse;
+  margin-left: 200px;
+  margin-bottom: 80px;
+  background-color: #f2f1e8;
+  font-size: 15px;
+  width: 50%;
+}
+
+td, th {
+  border: thin solid #968772;
+  padding: 15px;
+}
+ .row1{
+   background-color: #f2eadc;
+ }
+footer {
+  background-color: #2b2f26;
+  color: #f2f1e8;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+}

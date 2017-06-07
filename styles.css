@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  background-color: #f2f1e8;
+}
+
+.logo {
+  background-image: url(./images/bent-creek-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  padding: 15px;
+}
+
+.nav-row {
+  background: #fff;
+  box-shadow: 1px 1px 1px grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  font-family: 'roboto';
+  text-transform: uppercase;
+  font-size: 12px;
+  width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+   color: #2B2F26;
+}
+
+.nav-item a{
+  color: #2B2F26;
+}
+
+#activelink {
+  color: #968772;
+}
+
+.nav-item a:hover{
+  color: #CD5D67;
+}
+
+
+.main-heading {
+  font-family: 'merriweather';
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.sub-heading {
+  font-family: 'merriweather';
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+.text-one{
+  background-color:#2b2f26;
+  color: #f0eed5;
+  padding:10px;
+  position: relative;
+  top:155px;
+  font-size: 15px;
+}
+.text2{
+  background-color:#2b2f26;
+  color: #f0eed5;
+  padding:10px;
+  font-size: 12px;
+  position: relative;
+  top:110px;
+}
+
+.home-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.product {
+  height: 150px;
+  width: calc(20% - 10px);
+  margin-bottom: 10px;
+}
+
+.product-1, .product-2, .product-3 {
+  height: 200px;
+}
+
+.product-4, .product-5, .product-6, .product-7 {
+  height: 145px;
+}
+
+.product-1 {
+  background: url('./images/product-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+}
+
+.product-2 {
+  background: url('./images/product-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-3 {
+  background: url('./images/product-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-4 {
+  background: url('./images/product-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-5 {
+  background: url('./images/product-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-6 {
+  background: url('./images/product-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+}
+
+.product-7 {
+  background: url('./images/product-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #2b2f26;
+  color: #f0eed5;
+  font-size: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 20px;
+}
